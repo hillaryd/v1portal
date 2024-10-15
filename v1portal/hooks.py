@@ -1,7 +1,7 @@
 app_name = "v1portal"
 app_title = "V1 Portal"
 app_publisher = "Commquest Technologies Pvt Ltd.,"
-app_description = "V1 Portal App"
+app_description = "V1 Portal"
 app_email = "info@commquest.co.za"
 app_license = "mit"
 
