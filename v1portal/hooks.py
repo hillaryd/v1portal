@@ -245,5 +245,5 @@ add_to_apps_screen = [
 
 website_route_rules = [{'from_route': '/v1portal/<path:app_path>', 'to_route': 'v1portal'}, {'from_route': '/dashboard/<path:app_path>', 'to_route': 'dashboard'},]
 fixtures = [
-    {"doctype": "V1Portal Navbar Settings"}
+    {"doctype": "V1 Portal Navbar Settings"}
 ]
