@@ -42,7 +42,7 @@
    "fieldname": "settings_dropdown",
    "fieldtype": "Table",
    "label": "Settings Dropdown",
-   "options": "V1Portal Navbar Item"
+   "options": "V1 Portal Navbar Item"
   },
   {
    "fieldname": "help_dropdown",
@@ -57,7 +57,7 @@
  "modified": "2024-09-24 12:31:15.958021",
  "modified_by": "Administrator",
  "module": "V1 Portal",
- "name": "V1Portal Navbar Settings",
+ "name": "V1 Portal Navbar Settings",
  "owner": "Administrator",
  "permissions": [
   {

@@ -4,12 +4,12 @@ from frappe import _
 # @frappe.whitelist()
 # def get_application_logo():
 #     try:
-#         doc = frappe.get_doc('V1Portal Navbar Settings')
+#         doc = frappe.get_doc('V1 Portal Navbar Settings')
 #         return {
 #             'application_logo': doc.application_logo
 #         }
 #     except frappe.DoesNotExistError:
-#         frappe.throw(_("V1Portal Navbar Settings document does not exist"))
+#         frappe.throw(_("V1 Portal Navbar Settings document does not exist"))
 #     except Exception as e:
 #         frappe.throw(str(e))
 
@@ -301,13 +301,13 @@ def get_logged_user():
 
 @frappe.whitelist()
 def get_navbar_routes():
-    check=frappe.get_single('V1Portal Navbar Settings')
-    user_details = frappe.get_all("V1Portal Navbar Item", filters={'parent': 'V1Portal Navbar Settings','enabled':1}, fields=['*'])
+    check=frappe.get_single('V1 Portal Navbar Settings')
+    user_details = frappe.get_all("V1 Portal Navbar Item", filters={'parent': 'V1 Portal Navbar Settings','enabled':1}, fields=['*'])
     return user_details
 
 @frappe.whitelist()
 def get_navbar_routes_logo():
-    check=frappe.get_single('V1Portal Navbar Settings')
+    check=frappe.get_single('V1 Portal Navbar Settings')
     return check
 
 @frappe.whitelist()
